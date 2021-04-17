@@ -98,21 +98,13 @@ body.fotos #navegacao a#fotos{
     
 }
 
-#tres-colunas #primario{
 
-    width: 270px;
-    float: left;
-    background: blue;
-    margin: 0 0 20px 195px;
-
-
-}
 
 #primario{
 
     width: 270px;
     float: left;
-    background: blue;
+    
     margin: 0 0 20px 195px;
     
 }
@@ -140,7 +132,7 @@ body.fotos #navegacao a#fotos{
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green;
+   
     
 }
 
@@ -149,6 +141,85 @@ body.fotos #navegacao a#fotos{
     width: 180px;
     float: left;   
     margin: 0 0 20px -750px;
+}
+
+/* Formatando imagens */
+
+
+
+
+img.imagem-principal{
+
+    width:98% ;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+
+    background:#b10333 ;
+    color: #fff;
+
+}
+
+.entrevista h3{
+
+    background:#de003e ;
+   
+
+}
+
+/* formatando lista de notícias */
+
+#lista-noticias li{
+
+    padding: 2px;
+    border-bottom:1px solid #ccc ;
+    height: 65px;
+}
+
+#lista-noticias li a img{
+
+    float: left;
+    margin: 5px;
+
+   
+}
+
+#lista-noticias li a {
+
+    text-decoration: none;
+   
+   
+}
+
+#lista-noticias li a h3 {
+
+   
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+
+    
+    font-size: 0.7em;
+   
+}
+
+#lista-noticias li:hover {
+
+    background: #eee;
+    cursor: pointer;
+   
+   
 }
 
 /* rodape*/
@@ -182,6 +253,18 @@ h2{
 
 }
 
+label{
+
+    display: block;
+    cursor: pointer;
+}
+
+input{
+
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
 .caixa-conteudo{
 
     background: #fff;
@@ -189,6 +272,19 @@ h2{
     margin-top: 5px;
 }
 
+input.submit{
+
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+   
+}
+
+.teste{
+
+    width: 150px;
+}
 
 #lateral ul a{
 
